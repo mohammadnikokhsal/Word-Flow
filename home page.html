@@ -4,23 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
+    <link rel="stylesheet" href="./home page.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./home page.css" />
   </head>
   <body>
     <!-- Heder part -->
     <header>
-      <nav
-        class="navbar navbar-expand-lg p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 container-lg"
-      >
+      <nav class="navbar navbar-expand-lg container-xxl">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">BOOT</a>
+          <a class="navbar-brand d-flex alin-items-center" href="#">
+            <img
+              src="./word-flow img/IMG_0120.JPG"
+              class=".d-inline-block align-text-top my-logo-header"
+              alt="logo"
+            />
+            <h2 class="m-0 mt-1">Aps institute</h2>
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -33,23 +37,23 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+              <li class="nav-item ms-5">
                 <a class="nav-link active" aria-current="page" href="#"
-                  >menu1</a
+                  >Find a teacher</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item ms-5">
                 <a class="nav-link active" aria-current="page" href="#"
-                  >menu2</a
+                  >Group Class</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item ms-5">
                 <a class="nav-link active" aria-current="page" href="#"
-                  >menu3</a
+                  >Community</a
                 >
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown ms-5">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -57,38 +61,45 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  menu4
+                  language
                 </a>
-                <ul
-                  class="dropdown-menu p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3"
-                >
-                  <li><a class="dropdown-item" href="#">Action</a></li>
+                <ul class="dropdown-menu ms-5">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Spanish</a>
                   </li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">France</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">German</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Japanese</a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
+              <li class="nav-item ms-5">
                 <a class="nav-link active" aria-current="page" href="#"
-                  >menu5</a
+                  >Become a teacher</a
                 >
               </li>
             </ul>
+            <button type="button" class="btn btn-light">singin</button>
           </div>
-          <button type="button" class="btn btn-light">singin</button>
         </div>
       </nav>
     </header>
     <!-- Main part -->
-    <!-- Crosal -->
     <main>
+      <!-- part-1-Crosal -->
       <div
         id="carouselExampleCaptions"
-        class="carousel slide"
+        class="carousel slide container-xxl mt-5"
         data-bs-ride="carousel"
       >
         <div class="carousel-indicators">
@@ -113,31 +124,48 @@
             aria-label="Slide 3"
           ></button>
         </div>
+        <!-- imgs -->
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="3000">
-            <img src="" class="d-block w-100" alt="img" />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
+            <img
+              src="./word-flow img/IMG_0136.JPG"
+              class="d-block w-100"
+              alt="img"
+            />
+            <div class="carousel-caption d-flex d-md-block f">
+              <h5>Connect & Speak—Fluently and Fearlessly!</h5>
               <p>
-                Some representative placeholder content for the first slide.
+                Join our dynamic online conversation classes and practice
+                real-life English with learners from around the world—anytime,
+                anywhere
               </p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="" class="d-block w-100" alt="img" />
+            <img
+              src="./word-flow img/IMG_0137-fotor-20250211174920.png"
+              class="d-block w-100"
+              alt="img"
+            />
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
+              <h5 class="">Speak with Confidence, Shine in Conversations!</h5>
               <p>
-                Some representative placeholder content for the second slide.
+                Jump into exciting group discussions and take your English
+                fluency to the next level!
               </p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="" class="d-block w-100" alt="img" />
+            <img
+              src="./word-flow img/IMG_0140-fotor-20250211175426.png"
+              class="d-block w-100"
+              alt="img"
+            />
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
+              <h5>Master English—Anytime, Anywhere!</h5>
               <p>
-                Some representative placeholder content for the third slide.
+                Join our interactive online classes and level up your English
+                skills from the comfort of your home!
               </p>
             </div>
           </div>
@@ -161,7 +189,26 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <!-- h2 -->
+      <!-- part-2-h2 -->
+      <section class="container-xxl row m-0">
+        <div class="col-12 text-center mt-5 pt-5 col-xxl-6">
+          <h2 class="bold mt-5">Become fluent in any language</h2>
+          <p>Take customizable 1-on-1 lessons trusted by millions of users</p>
+          <p>Learn from certified teachers that fit your budget and schedule</p>
+          <p>Connect with a global community of language learners</p>
+          <a href="#">
+            <button type="button" class="btn btn-danger">Start now</button>
+          </a>
+        </div>
+        <div class="col-12 col-xxl-6 Becomeimg p-md-0">
+          <img
+            src="./word-flow img/Screenshot 2025-02-11 194654-fotor-20250211195441.png"
+            class="img-fluid"
+            alt="img"
+          />
+        </div>
+      </section>
+      <!-- part-3-like card -->
     </main>
     <!-- ----------Boot Strap Link---------- -->
     <script
