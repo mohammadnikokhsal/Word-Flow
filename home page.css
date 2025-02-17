@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +8,9 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
+}
+body {
+  background-color: #f5f5f5;
 }
 a {
   text-decoration: none;
@@ -22,49 +26,140 @@ div > p {
 }
 /* sining media */
 @media (max-width: 990px) {
-.my-bh{
-  display: none !important;
+  .my-bh {
+    display: none !important;
+  }
 }
-}
-.my-border-img-c{
-  border: 1px solid white ;
+.my-border-img-c {
+  border: 1px solid white;
   background-color: rgba(240, 248, 255, 0.805);
 }
-.my-df{
+.my-df {
   display: flex !important;
 }
-@media (min-width: 950px){
-  .my-card-bot-p:hover{
+@media (min-width: 950px) {
+  .my-card-bot-p:hover {
     position: relative !important;
   }
-  .my-card-bot-c:hover{
+  .my-card-bot-c:hover {
     position: absolute !important;
     right: 92px;
   }
 }
-.my-little-cards{
+.my-little-cards {
   height: 227px;
   width: 388px;
-background-color: rgb(255, 255, 255);
-border: 0.8px solid rgba(0, 0, 0, 0.176);
-border-radius: 6px;
-display: flex;
-align-items: center;
-
+  background-color: rgb(255, 255, 255);
+  border: 0.8px solid rgba(0, 0, 0, 0.176);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
 }
-.my-liitle-card-img{
+@media (max-width: 760px) {
+  .my-little-cards {
+    width: 100%;
+  }
+}
+.my-liitle-card-img {
   width: 200px;
   height: 100%;
 }
-@media (min-width: 950px){
+
+.my-card-bot-l-p:hover .my-card-bot-l-c {
+  display: inline-block;
 }
-.my-card-bot-l-p:hover .my-card-bot-l-c{
- display: inline-block;
+.my-card-bot-l-c {
+  display: none;
+}
+/* ---------------------------------------------------form-part------------------------------------------------------------ */
+.my-backgruoand {
+  background-color: darkgray;
+}
+.my-parent-part-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.my-p-part {
+  width: 580px;
+}
+.my-form-part {
+  width: 580px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.in-fo {
+  width: 200px;
+  height: 50px;
+  /* border: 0.8px solid rgb(0, 0, 0); */
+  border-radius: 10px;
+  padding: 16px 12px;
+}
+.por {
+  position: relative;
+  margin-top: 48px;
+  padding: 0 8px;
+}
+.pos {
+  position: absolute;
+  top: 7px;
+  left: 20px;
+  font-size: 1.4rem;
+  font-style: bold;
+  transition: all 0.1s linear;
+  pointer-events: none;
+}
+.por:focus-within .pos,
+.in-fo:not(:placeholder-shown) + .pos {
+  position: absolute;
+  top: 0;
+  font-size: 0.8rem;
+  color: darkgray;
+}
+input:focus {
+  box-shadow: 0px 0px 20px gray;
+}
+.my-color {
+  font-family: "Roboto", serif;
 }
 
-.my-card-bot-l-c{
-
-display: none;
-
+.tnt {
+  border: 15px solid white;
+  border-radius: 10px;
+  width: 570px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 }
-
+@media (max-width: 600px) {
+  .tnt {
+    width: 100%;
+  }
+}
+.lon {
+  width: 445px;
+  height: 80px;
+  border-radius: 10px;
+  padding: 16px 12px;
+}
+.por:focus-within .pos,
+.lon:not(:placeholder-shown) + .pos {
+  position: absolute;
+  top: 0;
+  font-size: 0.8rem;
+  color: darkgray;
+}
+@media (max-width: 760px) {
+  .lon {
+    width: 100%;
+  }
+  .in-fo {
+    width: 100%;
+  }
+}
+.bot-sub {
+  width: 100px;
+  height: 45px;
+  background-color: darkgray;
+}
