@@ -40,8 +40,24 @@ a {
     color: blue;
 }
 
+#bot-nav {
+    background-image: url("./Img/photo17142591887.jpg");
+    background-position: right;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+}
+
+#img-steve, #img-jane {
+    width: 64px;
+    height: 64px;
+}
+
+#img-phone {
+    width: 45px;
+    height: 45px;
+}
+
 .text {
-    
     padding: 6rem 0;
     padding-left: 6rem;
     display: flex;
@@ -113,6 +129,7 @@ a {
   
 #footer .btn.btn-link::before {
     position: relative;
+    content: "›";
     font-weight: 900;
     color: #a7a8b4;
     margin-right: 10px;
