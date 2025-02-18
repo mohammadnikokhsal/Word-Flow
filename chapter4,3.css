@@ -1,0 +1,126 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .navbar-brand {
+    max-width: 23.65 !important;
+  }
+  .btn {
+    border-radius: 0.6rem !important;
+    outline: none !important;
+    border: none !important;
+  }
+  .btn:hover {
+    background-color: #6edff6;
+  }
+  .img-fluid {
+    width: 4rem;
+    border-radius: 50%;
+  }
+  .nav-link {
+    text-align: left !important;
+    font-weight: 600 !important;
+    margin-left: 2rem;
+    padding: 0.5rem 0 !important;
+  }
+  .nav-item:hover {
+    color: #015fc9 !important;
+  }
+  .active {
+    color: #015fc9 !important;
+  }
+  .first-cards .card-body img {
+    width: 90px;
+    height: 90px;
+    border: 14px solid var(--border-color);
+  }
+  .first-cards .card-body .title {
+    position: relative;
+    left: -48px;
+  }
+  
+  .first-cards .card-body {
+    box-shadow: 0px 0px 48px 12px #dddddd3d;
+  }
+  /* استایل سکشن دوم */
+  .form img {
+    width: 45px;
+    height: 45px;
+    margin-right: 8px;
+  }
+  .form {
+    color: var(--header-bg);
+  }
+  .form-input,
+  .num-parent {
+    background-color: var(--header-bg);
+    color: var(--header-bg);
+  }
+  /* استایل سکشن سوم */
+  .second-cards .card-body img {
+    width: 100%;
+    height: auto;
+  }
+  .second-cards .card-body {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 48px 12px #dddddd3d;
+  }
+  /* افکت سکشن سوم */
+  .second-cards .title-hidden {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transform: translateY(50%);
+    background-color: white;
+    transition: all 0.4s ease-out;
+  }
+  .second-cards .card-body:hover .title-hidden {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  /* افکت تصاویر کارت های سکشن سوم */
+  .card-image {
+    transition: all 0.4s;
+  }
+  .second-cards .card-body:hover .card-image {
+    transform: scale(1.1);
+  }
+  /* استایل سکشن آخر (سه اسلاید) */
+  .abu-box2 img {
+    width: 100px;
+    height: 100px;
+  }
+  .abu-box,
+  .abu-box2 {
+    height: 421px;
+  }
+  .abu-box2 .carousel-item {
+    min-height: 376px;
+  }
+  .abu-box img {
+    border: dashed 1.5px var(--border-color);
+  }
+  .img1 {
+    top: 40px;
+    right: 50px;
+    width: 70px;
+    height: 70px;
+  }
+  .img2 {
+    bottom: 150px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+  }
+  .img3 {
+    bottom: 50px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+  }
+  
