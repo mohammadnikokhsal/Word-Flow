@@ -1,13 +1,38 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  .my-logo-header {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-brand {
+  max-width: 23.65 !important;
+}
+.btn {
+  border-radius: 0.6rem !important;
+  outline: none !important;
+  border: none !important;
+}
+.btn:hover {
+  background-color: #6edff6;
+}
+.img-fluid {
+  width: 4rem;
+  border-radius: 50%;
+}
+.nav-link {
+  text-align: left !important;
+  font-weight: 600 !important;
+  margin-left: 2rem;
+  padding: 0.5rem 0 !important;
+}
+.nav-item:hover {
+  color: #015fc9 !important;
+}
+.active {
+  color: #015fc9 !important;
+}
+
+
+
   .custom-card {
     background-color: #f8f9fa; 
     border-radius: 10px;
