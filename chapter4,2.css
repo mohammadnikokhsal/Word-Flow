@@ -1,9 +1,4 @@
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
   .navbar-brand {
     max-width: 23.65 !important;
   }
@@ -32,24 +27,29 @@
     color: #015fc9 !important;
   }
   
-  .custom-card {
-    background-color: #f8f9fa; 
-    border-radius: 10px;
-    padding: 15px;
-}
-.inner-card {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); 
-}
-@media (min-width: 1200px) {
-    .carousel-caption h2 {
-      font-size: 4rem;
-    }
+  html, body {
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+    padding: auto;
+    
   }
-  @media (max-width: 768px) {
-    .hero .carousel-item {
-      height: 450px !important;
-    }
+.wrapper{
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+ 
+
+  main {
+    flex: 1;
+  }
+
+  footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    width: 100%;
+  }
+
+
+
