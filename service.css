@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.my-logo-header {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+a {
+  text-decoration: none;
+}
+.learn {
+  font-size: 40px;
+}
+.the-fast {
+  font-size: 20px;
+  padding: 40px;
+}
+.english .card-body img {
+  width: 90px;
+  height: 90px;
+  border: 5px solid rgb(18, 41, 187);
+}
+.english .card-body .IELTS {
+  position: relative;
+  left: -45px;
+}
+.see:hover {
+  background-color: rgb(235, 39, 13);
+}
