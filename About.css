@@ -47,6 +47,13 @@ a {
     background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 260px) and (max-width: 1080px) {
+    #bot-nav {
+        background-size: 100%;
+    }
+}
+
+
 #img-steve, #img-jane {
     width: 64px;
     height: 64px;
