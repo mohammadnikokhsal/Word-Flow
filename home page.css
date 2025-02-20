@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.my-logo-header {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+body {
+  background-color: #f5f5f5;
+}
+a {
+  text-decoration: none;
+}
+div > h5,
+div > p {
+  color: black;
+}
+.Becomeimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* sining media */
+@media (max-width: 990px) {
+  .my-bh {
+    display: none !important;
+  }
+}
+.my-border-img-c {
+  border: 1px solid white;
+  background-color: rgba(240, 248, 255, 0.805);
+}
+.my-df {
+  display: flex !important;
+}
+@media (min-width: 950px) {
+  .my-card-bot-p:hover {
+    position: relative !important;
+  }
+  .my-card-bot-c:hover {
+    position: absolute !important;
+    right: 92px;
+  }
+}
+.my-little-cards {
+  height: 227px;
+  width: 388px;
+  background-color: rgb(255, 255, 255);
+  border: 0.8px solid rgba(0, 0, 0, 0.176);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 760px) {
+  .my-little-cards {
+    width: 100%;
+  }
+}
+.my-liitle-card-img {
+  width: 200px;
+  height: 100%;
+}
+
+.my-card-bot-l-p:hover .my-card-bot-l-c {
+  display: inline-block;
+}
+.my-card-bot-l-c {
+  display: none;
+}
+.my-ba {
+  background-color: rgba(244, 250, 255, 0.805);
+}
+/* ---------------------------------------------------form-part------------------------------------------------------------ */
+.my-backgruoand {
+  background-color: darkgray;
+}
+.my-parent-part-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.my-p-part {
+  width: 580px;
+}
+.my-form-part {
+  width: 580px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.in-fo {
+  width: 200px;
+  height: 50px;
+  /* border: 0.8px solid rgb(0, 0, 0); */
+  border-radius: 10px;
+  padding: 16px 12px;
+}
+.por {
+  position: relative;
+  margin-top: 48px;
+  padding: 0 8px;
+}
+.pos {
+  position: absolute;
+  top: 7px;
+  left: 20px;
+  font-size: 1.4rem;
+  font-style: bold;
+  transition: all 0.1s linear;
+  pointer-events: none;
+}
+.por:focus-within .pos,
+.in-fo:not(:placeholder-shown) + .pos {
+  position: absolute;
+  top: 0;
+  font-size: 0.8rem;
+  color: darkgray;
+}
+input:focus {
+  box-shadow: 0px 0px 20px gray;
+}
+.my-color {
+  font-family: "Roboto", serif;
+}
+
+.tnt {
+  border: 15px solid white;
+  border-radius: 10px;
+  width: 570px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+@media (max-width: 600px) {
+  .tnt {
+    width: 100%;
+  }
+}
+.lon {
+  width: 445px;
+  height: 80px;
+  border-radius: 10px;
+  padding: 16px 12px;
+}
+.por:focus-within .pos,
+.lon:not(:placeholder-shown) + .pos {
+  position: absolute;
+  top: 0;
+  font-size: 0.8rem;
+  color: darkgray;
+}
+@media (max-width: 760px) {
+  .lon {
+    width: 100%;
+  }
+  .in-fo {
+    width: 100%;
+  }
+  .mar {
+    padding-right: 50px;
+  }
+}
+.bot-sub {
+  width: 100px;
+  height: 45px;
+  background-color: darkgray;
+}
+@media (max-width: 428px) {
+  .my-form-articla-1 {
+    width: 100%;
+  }
+}
+/* ------------------------------------------------------------levels card----------------------------------------------------------------- */
+.my-container-levels-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.my-child-cardlevel {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 400px;
+  height: 319px;
+  border: 0.8px solid darkgray;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px gray;
+}
+.my-img-taitle {
+  position: absolute;
+  left: 0;
+  top: 25px;
+  width: 400px;
+  height: 90px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 48px;
+}
+.my-box-img-card-levels {
+  width: 90px;
+  height: 90px;
+  border: 15px solid darkgray;
+  border-radius: 0px 10px 10px 0px;
+  margin-right: 12px;
+}
+.my-roboto {
+  font-family: "Roboto", serif;
+}
+@media (max-width: 428px) {
+  .my-child-cardlevel {
+    width: 100%;
+  }
+  .my-img-taitle {
+    width: 100%;
+  }
+}
+/* -------------------------------------------------------------------------------teacher card------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------با اورفلو انجام دادم -----------------------------------------------------------*/
+.my-thchers-card-child {
+  height: 550px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 0px 20px gray;
+}
+.my-tran-card-tech-img {
+  transition: all 0.4s linear;
+}
+.my-hover-teacher-card {
+  position: absolute;
+  bottom: -50%;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s linear;
+  border-radius: 0 0 10px 10px;
+  background-color: #f5f5f5;
+  gap: 10px;
+}
+.my-icons-techer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.my-thchers-card-child:hover .my-hover-teacher-card {
+  transform: translateY(-80%);
+}
+.my-thchers-card-child:hover .my-tran-card-tech-img {
+  transform: scale(1.05);
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.my-div-pos-anima {
+  height: 391px;
+  width: 300px;
+}
+.my-parent-crocal-22 {
+  padding-top: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 534px;
+  height: 421px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.my-artical-parent-crosal-2 {
+  width: 100% !important;
+}
+@media (max-width: 55) {
+}
+.my-crosal-item-class {
+  margin-bottom: 35px;
+  margin-left: 200px;
+  margin-right: 300px;
+  width: 100px !important;
+  height: 100px !important;
+  background-color: blue;
+}
+.my-crol555 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.my-buttons-pos-crol1 {
+  width: 45px !important;
+  height: 45px !important;
+  position: absolute;
+  bottom: 0px;
+}
+.my-buttons-pos-crol2 {
+  position: absolute;
+  bottom: 0px;
+  width: 45px !important;
+  height: 45px !important;
+}
+.my-bo-box-bot {
+  width: 489px;
+  height: 45px;
+  position: relative;
+  bottom: 0;
+}
+.my-crosal-box1 {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  left: 199.5px;
+}
+.my-crosal-box2 {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  right: 195.5px;
+}
+.my-box-left {
+  position: relative;
+}
+.my-imgs-start-end1 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 80px;
+  right: 30px;
+}
+.my-imgs-start-end2 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 180px;
+  left: 30px;
+}
+.my-imgs-start-end3 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 280px;
+  right: 60px;
+}
+@media (max-width: 1200px) {
+  .my-div-pos-anima {
+    display: none !important;
+  }
+  .my-artical-parent-crosal-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media(max-width:580px){
+  .my-parent-crocal-22{
+    width: 100% !important;
+    height: 500px;
+  }
+  .my-bo-box-bot{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
