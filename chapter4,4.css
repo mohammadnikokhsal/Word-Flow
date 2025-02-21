@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .navbar-brand {
+    max-width: 23.65 !important;
+  }
+  .btn {
+    border-radius: 0.6rem !important;
+    outline: none !important;
+    border: none !important;
+  }
+  .btn:hover {
+    background-color: #6edff6;
+  }
+  .img-fluid {
+    width: 4rem;
+    border-radius: 50%;
+  }
+  .nav-link {
+    text-align: left !important;
+    font-weight: 600 !important;
+    margin-left: 2rem;
+    padding: 0.5rem 0 !important;
+  }
+  .nav-item:hover {
+    color: #015fc9 !important;
+  }
+  .active {
+    color: #015fc9 !important;
+  }
+  /* carousel */
+  my-div-pos-anima {
+    height: 391px;
+    width: 300px;
+  }
+  .my-parent-crocal-22 {
+    padding-top: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 534px;
+    height: 421px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .my-artical-parent-crosal-2 {
+    width: 100% !important;
+  }
+  @media (max-width: 55) {
+  }
+  .my-crosal-item-class {
+    margin-bottom: 35px;
+    margin-left: 200px;
+    margin-right: 300px;
+    width: 100px !important;
+    height: 100px !important;
+    background-color: blue;
+  }
+  .my-crol555 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .my-buttons-pos-crol1 {
+    width: 45px !important;
+    height: 45px !important;
+    position: absolute;
+    bottom: 0px;
+  }
+  .my-buttons-pos-crol2 {
+    position: absolute;
+    bottom: 0px;
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .my-bo-box-bot {
+    width: 489px;
+    height: 45px;
+    position: relative;
+    bottom: 0;
+  }
+  .my-crosal-box1 {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 199.5px;
+  }
+  .my-crosal-box2 {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 195.5px;
+  }
+  .my-box-left {
+    position: relative;
+  }
+  .my-imgs-start-end1 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 80px;
+    right: 30px;
+  }
+  .my-imgs-start-end2 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 180px;
+    left: 30px;
+  }
+  .my-imgs-start-end3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 280px;
+    right: 60px;
+  }
+  @media (max-width: 1200px) {
+    .my-div-pos-anima {
+      display: none !important;
+    }
+    .my-artical-parent-crosal-2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media(max-width:580px){
+    .my-parent-crocal-22{
+      width: 100% !important;
+      height: 500px;
+    }
+    .my-bo-box-bot{
+      width: 100% !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+    }
+  }
+
+  
